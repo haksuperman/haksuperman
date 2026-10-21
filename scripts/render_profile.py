@@ -61,11 +61,13 @@ def calendar_from_github() -> dict:
     if not re.fullmatch(r"[A-Za-z0-9-]+", USERNAME):
         raise ValueError("Unexpected GitHub username")
 
+    # Avoid f-string brace escaping; GraphQL needs exactly one closing brace
+    # for each selection set (query, user, collection, calendar, weeks, days).
     query = (
-        f'query {{ user(login: "{USERNAME}") {{ contributionsCollection {{ '
+        'query { user(login: "__LOGIN__") { contributionsCollection { '
         'contributionCalendar { totalContributions weeks { contributionDays { '
-        'date contributionCount color } } } } } } }'
-    )
+        'date contributionCount color } } } } } }'
+    ).replace("__LOGIN__", USERNAME)
     request = urllib.request.Request(
         "https://api.github.com/graphql",
         data=json.dumps({"query": query}).encode("utf-8"),
