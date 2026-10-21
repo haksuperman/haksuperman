@@ -1,6 +1,7 @@
 name: Update profile artwork
 
 on:
+  pull_request:
   workflow_dispatch:
   schedule:
     - cron: '17 0 * * *'
@@ -31,6 +32,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/render_profile.py
       - name: Commit updated images
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
