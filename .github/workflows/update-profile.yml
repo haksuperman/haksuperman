@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add contrib-heatmap.svg avatar-ascii.svg stats.svg
+          git add intro-terminal.svg contrib-heatmap.svg avatar-ascii.svg stats.svg contrib-3d.svg
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh profile artwork"
             git push
