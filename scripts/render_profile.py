@@ -157,10 +157,11 @@ def render_ascii() -> None:
         )
         # Text remains visible even where SVG animation is unsupported.
         body += (
-            f'<g>'
-            f'{label(30, 90 + y * 10.7, chars, 10, TEXT, extra=' + '"xml:space=\\"preserve\\" textLength=\\"775\\" lengthAdjust=\\"spacing\\""' + ')}'
+            '<g>' +
+            label(30, 90 + y * 10.7, chars, 10, TEXT,
+                  extra='xml:space="preserve" textLength="775" lengthAdjust="spacing"') +
             f'<animate attributeName="opacity" values=".12;1" '
-            f'begin="{y * .024:.3f}s" dur=".45s" fill="freeze"/>'
+            f'begin="{y * .024:.3f}s" dur=".45s" fill="freeze"/>' +
             '</g>'
         )
     body += f'<path d="M0 825H840" stroke="{BORDER}"/>'
