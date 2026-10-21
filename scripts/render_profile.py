@@ -258,9 +258,91 @@ def render_stats(calendar: dict) -> None:
     )
 
 
+
+def render_intro() -> None:
+    """Animated typewriter header without external image services."""
+    body = (
+        f'<rect x=".5" y=".5" width="859" height="169" rx="13" '
+        f'fill="none" stroke="{BORDER}"/>'
+        f'<path d="M0 31H860" stroke="{BORDER}"/>'
+    )
+    for i, color in enumerate(("#ff5f56", "#ffbd2e", "#27c93f")):
+        body += f'<circle cx="{20 + i * 16}" cy="16" r="5" fill="{color}"/>'
+    body += label(430, 21, f"{USERNAME}@github:~$ ./intro.sh", 13, MUTED, "middle")
+    body += label(30, 66, "$ whoami", 18, GREEN)
+    body += label(30, 99, f"{PROFILE_NAME}  //  Cloud Infrastructure Engineer", 22)
+    body += label(30, 131, "$ echo $FOCUS", 16, MUTED)
+    # Without animation support, the full phrase remains visible.
+    body += (
+        '<defs><clipPath id="type-reveal">'
+        '<rect x="30" y="136" width="650" height="25">'
+        '<animate attributeName="width" values="0;650;650;0" '
+        'keyTimes="0;.52;.90;1" dur="9s" repeatCount="indefinite"/>'
+        '</rect></clipPath></defs>'
+        '<g clip-path="url(#type-reveal)">'
+        + label(30, 157, "Kubernetes  |  DevOps  |  OCI  |  AWS", 19, GREEN)
+        + '</g>'
+    )
+    (ROOT / "intro-terminal.svg").write_text(
+        svg(860, 170, body, "Terminal-style animated cloud engineer introduction"),
+        encoding="utf-8",
+    )
+
+
+def render_isometric(calendar: dict) -> None:
+    """Create an isometric contribution graph from the existing GraphQL calendar."""
+    body = label(27, 33, f"{USERNAME} / isometric contributions", 18, GREEN)
+    tiles = []
+
+    def polygon(points: list[tuple[float, float]], color: str) -> str:
+        coords = " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
+        return f'<polygon points="{coords}" fill="{color}"/>'
+
+    for week_index, week in enumerate(calendar["weeks"]):
+        for day in week["contributionDays"]:
+            day_index = (date.fromisoformat(day["date"]).weekday() + 1) % 7
+            x = 87 + week_index * 12 - day_index * 7
+            y = 61 + week_index * 2 + day_index * 8
+            count = max(0, day["contributionCount"])
+            height = min(35, 4 + count ** .6 * 8) if count else 0
+            raw_color = day.get("color", "")
+            color = raw_color if re.fullmatch(r"#[0-9a-fA-F]{6}", raw_color) else GREEN
+            if count == 0:
+                color = "#253347"
+            top = [(x, y - height), (x + 11, y + 2 - height),
+                   (x + 4, y + 10 - height), (x - 7, y + 8 - height)]
+            tile = ""
+            if height:
+                tile += polygon(
+                    [top[1], top[2], (x + 4, y + 10), (x + 11, y + 2)],
+                    "#237b44",
+                )
+                tile += polygon(
+                    [top[3], top[2], (x + 4, y + 10), (x - 7, y + 8)],
+                    "#14532d",
+                )
+            tile += polygon(top, color)
+            tooltip = f'{day["date"]}: {count} contributions'
+            tiles.append((y, f'<g><title>{esc(tooltip)}</title>{tile}</g>'))
+
+    for _, tile in sorted(tiles, key=lambda item: item[0]):
+        body += tile
+    body += label(
+        27, 262,
+        f'{calendar["totalContributions"]} contributions  |  updated via GitHub Actions',
+        14, MUTED,
+    )
+    (ROOT / "contrib-3d.svg").write_text(
+        svg(860, 284, body, "Isometric GitHub contribution calendar"),
+        encoding="utf-8",
+    )
+
+
 if __name__ == "__main__":
     calendar_data = calendar_from_github()
     render_heatmap(calendar_data)
+    render_intro()
+    render_isometric(calendar_data)
     render_ascii()
     render_stats(calendar_data)
-    print("Updated contrib-heatmap.svg, avatar-ascii.svg and stats.svg")
+    print("Updated profile artwork: intro, heatmap, portrait, statistics, isometric graph")
