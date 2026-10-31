@@ -5,6 +5,7 @@
 ### 👋 Nice ways to reach me
 [![Tech Blog](https://img.shields.io/badge/Tech_Blog-2563EB?style=flat-square)](https://haksuperman.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/haksu-park-7229a8306/)
+[![Email](https://img.shields.io/badge/tky6012%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tky6012@gmail.com)
 
 ----
 
