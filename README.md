@@ -1,6 +1,6 @@
 ## Haksu Park | Cloud & DevOps Engineer
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;pause=1600&amp;color=3B82F6&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=32&amp;lines=Automation+%7C+Kubernetes+%7C+IaC;Build%2C+Automate%2C+Document" width="560" alt="Automation · Kubernetes · IaC | Build, Automate, Document" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;pause=1600&amp;color=3B82F6&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=32&amp;lines=Cloud%20%7C%20Kubernetes%20%7C%20IaC%20%7C%20CI%2FCD;AI-Assisted%20Development%20%26%20Automation;Build%2C%20Automate%2C%20Document" width="560" alt="Cloud | Kubernetes | IaC | CI/CD | AI-Assisted Development &amp; Automation | Build, Automate, Document" />
 </p>
 
 ### 👋 Nice ways to reach me
@@ -19,7 +19,7 @@
 #### ⚙️ On the automation side,
 Python과 클라우드 SDK로 리소스 현황 정리와 테스트 환경 관리에 필요한 도구를 만듭니다. Claude Code와 Codex를 개발에 활용하고, 개인 AI Agent 시스템도 구축하고 운영합니다.
 
-#### 🌱 On the DevOps side,
+#### 🌱 On the IaC & CI/CD side,
 Terraform 기반 IaC와 CI/CD를 실습하며, 인프라 구성부터 애플리케이션 배포까지 코드로 관리하는 방식에 관심을 넓혀가고 있습니다. 운영에서 쌓은 경험을 반복 가능한 자동화로 연결하고자 합니다.
 
 #### 📝 On the sharing side,
@@ -38,7 +38,7 @@ Terraform 기반 IaC와 CI/CD를 실습하며, 인프라 구성부터 애플리�
 | **🔀 Version Control & Hosting** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
 | **🐧 Systems & OS** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
 | **🐍 Languages & Scripting** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash / Shell](https://img.shields.io/badge/Bash_%2F_Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) |
-| **📊 Logging & Observability** | ![EFK](https://img.shields.io/badge/EFK-005571?style=flat-square) |
+| **📊 Logging & Observability** | ![EFK](https://img.shields.io/badge/EFK-005571?style=flat-square) (Elasticsearch · Fluentd · Kibana) |
 | **🤖 AI Tools & Agents** | ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square) ![Codex](https://img.shields.io/badge/Codex-202123?style=flat-square) ![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-7C3AED?style=flat-square) |
 | **🤝 Collaboration & Knowledge** | ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) ![Jira Service Management](https://img.shields.io/badge/Jira_Service_Management-0052CC?style=flat-square) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white) |
 
