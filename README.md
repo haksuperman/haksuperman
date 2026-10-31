@@ -1,8 +1,5 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0EA5E9,50:2563EB,100:7C3AED&amp;height=170&amp;section=header&amp;text=Haksu%20Park&amp;fontSize=44&amp;fontColor=FFFFFF&amp;fontAlignY=35" width="100%" alt="Haksu Park — blue and violet wave banner" />
-</p>
+# Haksu Park | DevOps Engineer
 
-<h3 align="center">DevOps Engineer</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;pause=1600&amp;color=3B82F6&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=32&amp;lines=Automation+%7C+Kubernetes+%7C+IaC;Build%2C+Automate%2C+Document" width="560" alt="Automation · Kubernetes · IaC | Build, Automate, Document" />
