@@ -12,7 +12,6 @@ import json
 import os
 import re
 import urllib.request
-from collections import defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -217,46 +216,23 @@ def render_stats(calendar: dict) -> None:
         ("avg / active day", avg, "contributions"),
     ]
 
-    body = terminal("./stats.sh")
+    body = label(26, 37, "GitHub Activity", 24, TEXT)
+    body += label(814, 35, f"@{USERNAME}", 15, MUTED, "end")
     for i, (heading, number, detail) in enumerate(cards):
-        x = 20 + (i % 2) * 408
-        y = 50 + (i // 2) * 164
+        x = 24 + (i % 3) * 266
+        y = 62 + (i // 3) * 134
         body += (
-            f'<rect x="{x}" y="{y}" width="392" height="148" '
-            f'rx="9" fill="{SURFACE}" stroke="{BORDER}"/>'
-            + label(x + 22, y + 35, "$ " + heading, 20, MUTED)
-            + label(x + 22, y + 100, number, 50, GREEN if i == 0 else TEXT)
-            + label(x + 22, y + 131, detail, 17, MUTED)
+            f'<rect x="{x}" y="{y}" width="254" height="120" '
+            f'rx="10" fill="{SURFACE}" stroke="{BORDER}"/>'
+            + label(x + 18, y + 28, heading.title(), 16, MUTED)
+            + label(x + 18, y + 77, number, 36, "#58a6ff")
+            + label(x + 18, y + 102, detail, 13, MUTED)
         )
-
-    body += (
-        f'<rect x="20" y="548" width="800" height="310" rx="9" '
-        f'fill="{SURFACE}" stroke="{BORDER}"/>'
-    )
-    body += label(43, 586, "$ contributions / month", 20, MUTED)
-    totals = defaultdict(int)
-    for day in days:
-        totals[day["date"][:7]] += day["contributionCount"]
-    months = sorted(totals)[-12:]
-    maximum = max((totals[month] for month in months), default=0) or 1
-    slot = 754 / max(len(months), 1)
-    for index, month in enumerate(months):
-        contributions = totals[month]
-        h = max(2, 190 * contributions / maximum)
-        x = 43 + index * slot + slot * .2
-        y = 817 - h
-        body += (
-            f'<rect x="{x:.1f}" y="{y:.1f}" width="{slot * .6:.1f}" '
-            f'height="{h:.1f}" rx="3" fill="{GREEN}"/>'
-        )
-        month_text = date.fromisoformat(month + "-01").strftime("%b")
-        body += label(x + slot * .3, 842, month_text, 12, MUTED, "middle")
-
+    body += label(26, 346, f"Updated {today.isoformat()}", 12, MUTED)
     (ROOT / "stats.svg").write_text(
-        svg(840, 880, body, "GitHub contributions and streak statistics"),
+        svg(840, 366, body, "GitHub contributions and streak statistics"),
         encoding="utf-8",
     )
-
 
 
 def render_intro() -> None:
