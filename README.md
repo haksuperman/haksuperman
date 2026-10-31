@@ -37,7 +37,7 @@ Terraform 기반 IaC와 CI/CD를 실습하며, 인프라 구성부터 애플리�
 | **🐍 Programming & Scripting** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
 | **📊 Monitoring & Observability** | ![EFK](https://img.shields.io/badge/EFK-005571?style=flat-square) |
 | **🤖 AI Development Tools** | ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square) ![Codex](https://img.shields.io/badge/Codex-202123?style=flat-square) ![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-7C3AED?style=flat-square) |
-| **🤝 Collaboration** | ![Jira Service Management](https://img.shields.io/badge/Jira_Service_Management-0052CC?style=flat-square) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white) |
+| **🤝 Collaboration** | ![Jira Service Management](https://img.shields.io/badge/Jira_Service_Management-0052CC?style=flat-square) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white) |
 
 #### Focus & Strengths
 - 클라우드 인프라·Kubernetes 운영과 재현·검증 기반의 장애 원인 분석
