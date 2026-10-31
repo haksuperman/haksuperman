@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=18&amp;pause=1600&amp;color=3B82F6&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=32&amp;lines=Automation+%7C+Kubernetes+%7C+IaC;Build%2C+Automate%2C+Document" width="560" alt="Automation · Kubernetes · IaC | Build, Automate, Document" />
+</p>
+
 ### 👋 Nice ways to reach me
 [![Tech Blog](https://img.shields.io/badge/Tech_Blog-2563EB?style=flat-square)](https://haksuperman.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/haksu-park-7229a8306/)
@@ -23,15 +27,15 @@ Terraform 기반 IaC와 CI/CD를 실습하며, 인프라 구성부터 애플리�
 
 ### 💪 Skills
 
-| Area | Technologies |
+| Category | Tools |
 | :--- | :--- |
-| **☁️ Cloud Platforms** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge) ![OCI](https://img.shields.io/badge/OCI-F80000?style=for-the-badge) ![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=for-the-badge) |
-| **☸️ Containers & Virtualization** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white) ![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge) |
-| **🏗️ Infrastructure as Code** | ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge) |
-| **⚙️ Scripting & Automation** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
-| **📊 Observability** | ![EFK](https://img.shields.io/badge/EFK-005571?style=for-the-badge) |
-| **🤖 AI Development Tools** | ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge) ![Codex](https://img.shields.io/badge/Codex-202123?style=for-the-badge) ![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-7C3AED?style=for-the-badge) |
-| **🤝 Collaboration & Docs** | ![Jira Service Management](https://img.shields.io/badge/Jira_Service_Management-0052CC?style=for-the-badge) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge) |
+| **☁️ Cloud** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square) ![OCI](https://img.shields.io/badge/OCI-F80000?style=flat-square) ![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=flat-square) |
+| **☸️ Containers & VMs** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square) |
+| **🏗️ IaC** | ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square) |
+| **⚙️ Automation** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **📊 Observability** | ![EFK](https://img.shields.io/badge/EFK-005571?style=flat-square) |
+| **🤖 AI Tools** | ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square) ![Codex](https://img.shields.io/badge/Codex-202123?style=flat-square) ![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-7C3AED?style=flat-square) |
+| **🤝 Collaboration** | ![Jira Service Management](https://img.shields.io/badge/Jira_Service_Management-0052CC?style=flat-square) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square) |
 
 #### Focus & Strengths
 - 클라우드 인프라·Kubernetes 운영과 재현·검증 기반의 장애 원인 분석
