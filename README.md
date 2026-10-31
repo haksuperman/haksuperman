@@ -2,10 +2,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0EA5E9,50:2563EB,100:7C3AED&amp;height=170&amp;section=header&amp;text=Haksu%20Park&amp;fontSize=44&amp;fontColor=FFFFFF&amp;fontAlignY=35" width="100%" alt="Haksu Park — blue and violet wave banner" />
 </p>
 
-<h3 align="center">Cloud Infrastructure Engineer</h3>
+<h3 align="center">DevOps Engineer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=22&amp;pause=1400&amp;color=3B82F6&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=48&amp;lines=OCI+%7C+Kubernetes+%7C+Automation;Build%2C+Automate%2C+Document;Keep+Learning%2C+Keep+Sharing" width="720" alt="OCI · Kubernetes · Automation | Build, Automate, Document | Keep Learning, Keep Sharing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=22&amp;pause=1400&amp;color=3B82F6&amp;center=true&amp;vCenter=true&amp;width=720&amp;height=48&amp;lines=Automation+%7C+Kubernetes+%7C+IaC;Cloud+Infrastructure+%7C+Reliable+Operations;Build%2C+Automate%2C+Document" width="720" alt="Automation · Kubernetes · IaC | Cloud Infrastructure · Reliable Operations | Build, Automate, Document" />
 </p>
 
 <p align="center">
@@ -16,42 +16,44 @@
 
 ## 👋 About Me
 
-안녕하세요! OCI를 중심으로 클라우드 인프라를 구축하고 운영하는 엔지니어 박학수입니다.  
-운영 중 마주치는 문제를 직접 검증하고, 반복되는 일은 자동화하며, 배운 내용을 기록하고 공유합니다.
+안녕하세요! 클라우드 인프라 운영 경험을 바탕으로 반복 업무를 코드로 바꾸고, 안정적인 운영 환경을 만들어가는 **DevOps Engineer 박학수**입니다.  
+자동화와 Kubernetes 운영, 재현 가능한 인프라에 관심이 있으며, 배운 내용과 문제 해결 과정을 기록하고 공유합니다.
 
-AWS·OpenStack은 프로젝트와 개인 실습으로, Terraform은 IaC 실습으로 경험을 쌓고 있습니다.
+Terraform을 활용한 IaC를 실습하고 있으며, CI/CD를 통한 배포 자동화로도 역량을 넓혀가고자 합니다.
 
 ## ⚙️ What I Do
 
-- ☁️ **Cloud Operations** — OCI 기반 인프라 구축·운영, 네트워크·보안 구성 및 장애 분석
-- ☸️ **Kubernetes** — 클러스터 구축과 관리형 Kubernetes의 버전 업그레이드·Node Cycling 등 유지보수
-- 🤖 **Automation** — Claude Code·Codex와 Python·OCI SDK를 활용한 운영 도구 개발, 개인 AI Agent 시스템 구축·운영
-- 📝 **Knowledge Sharing** — Confluence 기반 Engineering Wiki·Knowledge Base 구축과 기술 블로그 기록
-- 🤝 **Service Management** — Jira Service Management 고객 티켓 서비스 운영과 신규 고객 등록·자동화 구성
+- ⚙️ **Automation** — Python과 클라우드 SDK 기반 운영 도구 개발, AI Agent를 활용한 반복 업무 자동화
+- ☸️ **Platform Operations** — Kubernetes 클러스터 구축과 관리형 Kubernetes의 버전 업그레이드·Node Cycling 등 유지보수
+- ☁️ **Cloud Infrastructure** — 인프라 구축·운영, 네트워크·보안 구성과 장애 원인 분석
+- 📝 **Collaboration & Knowledge** — Jira Service Management 기반 티켓 운영·자동화, Confluence 기반 Engineering Wiki·Knowledge Base 구축과 기술 문서 공유
 
 ---
 
 ## 🛠️ Tech Stack
 
-#### Cloud & IaC
+#### Cloud Platforms
 
-![OCI](https://img.shields.io/badge/OCI-F80000?style=for-the-badge)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge)
+![OCI](https://img.shields.io/badge/OCI-F80000?style=for-the-badge)
 ![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=for-the-badge)
+
+#### Infrastructure & Containers
+
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge)
-
-#### Platform & Logging
-
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge)
-![EFK](https://img.shields.io/badge/EFK-005571?style=for-the-badge)
 
-#### AI & Automation
+#### Automation & AI
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge)
 ![Codex](https://img.shields.io/badge/Codex-202123?style=for-the-badge)
 ![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-7C3AED?style=for-the-badge)
+
+#### Observability
+
+![EFK](https://img.shields.io/badge/EFK-005571?style=for-the-badge)
 
 #### Collaboration & Documentation
 
