@@ -13,10 +13,10 @@ OCI MSP 운영과 인프라 구축 프로젝트를 지원하며 네트워크·�
 Kubernetes 클러스터를 구축하고, 관리형 Kubernetes의 버전 업그레이드와 Node Cycling 등 유지보수를 수행합니다. VMware로 실습 환경을 구성하고, 프로젝트에서 EFK 기반 로그 수집·시각화 환경을 구축한 경험이 있습니다.
 
 #### 🤖 AI & Automation
-Claude Code와 Codex를 활용해 Python과 OCI SDK 기반의 운영 자동화 도구를 만듭니다. 리소스 현황 정리와 테스트 환경 관리에 활용하며, Hermes Agent로 개인 AI Agent 시스템도 구축하고 운영합니다.
+Claude Code와 Codex를 활용해 Python과 OCI SDK 기반의 운영 자동화 도구를 만듭니다. 리소스 현황 정리와 테스트 환경 관리에 활용하며, 개인 AI Agent 시스템도 구축하고 운영합니다.
 
 #### 📝 Collaboration & Knowledge
-Jira Service Management로 MSP 고객 티켓 서비스를 운영하고 신규 고객 등록과 자동화를 구성합니다. Confluence 기반 Engineering Wiki와 Knowledge Base를 구축하며, 직접 검증한 구성과 문제 해결 과정을 문서와 블로그에 정리하고 공유합니다.
+Jira Service Management로 고객 티켓 서비스를 운영하고 신규 고객 등록과 자동화를 구성합니다. Confluence 기반 Engineering Wiki와 Knowledge Base를 구축하며, 직접 검증한 구성과 문제 해결 과정을 문서와 블로그에 정리하고 공유합니다.
 
 ----
 
@@ -48,6 +48,6 @@ Jira Service Management로 MSP 고객 티켓 서비스를 운영하고 신규 �
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square)
 
 #### Focus & Strengths
-- OCI 기반 인프라 구축 지원 및 MSP 운영
+- OCI 기반 인프라 구축 및 운영
 - 관리형 Kubernetes 유지보수와 반복 운영 업무 자동화
 - 재현·검증 기반의 장애 분석과 재사용 가능한 기술 문서화
